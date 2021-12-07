@@ -6,12 +6,14 @@ import StreamEdit from './streams/StreamEdit';
 import StreamDelete from './streams/StreamDelete';
 import StreamShow from './streams/StreamShow';
 import StreamList from './streams/StreamList';
+import Header from './Header';
 
 
 const App = ()=>{
-    return <div>
+    return <div className="ui-container">
         <BrowserRouter>
         <div>
+            <Header/>
             <Routes>
             <Route path="/" exact element={<StreamList/>}/>
             <Route path="/streams/new" exact element={<StreamCreate/>}/>
