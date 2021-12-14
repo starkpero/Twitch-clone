@@ -25,5 +25,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-![React App - Google Chrome 14-12-2021 22_47_13 (2)](https://user-images.githubusercontent.com/77169816/146048005-324c3aee-e090-4ddd-a37c-f5d2fb282f53.png)
+![React App - Google Chrome 14-12-2021 22_47_13 (2)](https://user-images.githubusercontent.com/77169816/146048005-324c3aee-e090-4ddd-a37c-f5d2fb282f53.png)  
+![React App - Google Chrome 14-12-2021 22_48_44](https://user-images.githubusercontent.com/77169816/146048235-c986cd08-2c57-4361-a7fd-1ebe6d16d3d6.png)  
+![React App - Google Chrome 14-12-2021 22_26_50](https://user-images.githubusercontent.com/77169816/146048372-8e679a8e-3367-4ecf-a4be-ca13a7c44738.png)  
+![React App - Google Chrome 14-12-2021 22_27_02](https://user-images.githubusercontent.com/77169816/146048534-14b08e90-6211-4e18-99a7-8485c5e1cb36.png)
 
