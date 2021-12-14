@@ -12,7 +12,7 @@ In the project directory, you can run:
 * Then go to the rmtpServer folder and run `npm i`  
 * Install OBS in you system and setup basic streaming  
 * Then to start stream go to OBS settings, then navigate to streams, select custom and paste rtmp://localhost/live in server input  
-* Then get an API key for Google OAuth Login from Google Api  
+* Then get an API key for Google OAuth Login from [a Google Api](https://console.cloud.google.com/apis/dashboard?project=streams-334417)  
 * Then in the client folder make a .env file and paste you api key along with the following variable: REACT_APP_GOOGLE_CLIENT_ID. Example: REACT_APP_GOOGLE_CLIENT_ID="XXYYZZ".  
 * Open three terminal sessions and in one session navigate to the client folder and run npm start, then navigate to rmtpServer folder and run npm start and then navigate to api   folder and run npm start.  
 * The client side will run on Port 3000, RMTP will run on Port 8000 and api side will run on Port 3001  
