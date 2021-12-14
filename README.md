@@ -8,8 +8,8 @@ In the project directory, you can run:
 
 ## Setup
 * Go to the client folder and run `npm i`  
-* Then go to the api folder and run `npm i`  
-* Then go to the rmtpServer folder and run `npm i`  
+* Then go to the api folder in [api](https://github.com/starkpero/api) repo and run `npm i`  
+* Then go to the rmptServer folder in [rmtpServer](https://github.com/starkpero/rtmp-server) repo and run `npm i`  
 * Install OBS in you system and setup basic streaming  
 * Then to start stream go to OBS settings, then navigate to streams, select custom and paste rtmp://localhost/live in server input  
 * Then get an API key for Google OAuth Login from [Google Api](https://console.cloud.google.com/apis/dashboard?project=streams-334417)  
