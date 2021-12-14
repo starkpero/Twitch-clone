@@ -16,15 +16,12 @@ class App extends React.Component {
           <div>
             <Header />
             <Switch>
-              {/* Switch is used To avoid the conflict of new and show route*/}
+              {/* Switch is used To avoid the conflict of create and show route*/}
+              {/*element is used in place of component in later versions of react-router-dom*/}
               <Route path="/" exact component={StreamList} />
               <Route path="/streams/new" exact component={StreamCreate} />
               <Route path="/streams/edit/:id" exact component={StreamEdit} />
-              <Route
-                path="/streams/delete/:id"
-                exact
-                component={StreamDelete}
-              />
+              <Route path="/streams/delete/:id" exact component={StreamDelete}/>
               <Route path="/streams/:id" exact component={StreamShow} />
             </Switch>
           </div>
